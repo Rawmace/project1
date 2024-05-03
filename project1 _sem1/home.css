@@ -1,0 +1,154 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:aquamarine;
+}
+
+.description h1 {
+    font-size: 36px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.service {
+    flex-basis: calc(25% - 20px);
+    text-align: center;
+}
+
+.service img {
+    max-width: 100%;
+}
+
+.decorations {
+    margin-top: 40px;
+    align-items:center;
+    text-align:center;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .service {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(146, 129, 0, 0.1);
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.decorations img{
+   width: 100%;
+    height:auto;
+}
+
+/***-------------------------------------*/
+
+
+/* Footer styling */
+footer {
+    background-color: #496161;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+.contact-info a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+
+}
+
+
+
+/* Responsive Styles */
+
+/* Header */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
+
+
+
+/* Footer */
+@media screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info, .social-links {
+        margin: 10px 0;
+    }
+}
+footer a{
+    color:yellowgreen
+}
+
+ header h1{
+    color:aqua;
+ }

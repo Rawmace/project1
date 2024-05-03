@@ -1,0 +1,213 @@
+/* Reset default styles */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.map-container {
+    width:100%;
+    height:auto; 
+   
+    align-items:right;
+}
+
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: black;
+    color: aqua;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-form {
+    background-color: #000;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+	color: aqua;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Arial", sans-serif;
+}
+
+small {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #666;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+button {
+    background-color: aqua;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Arial", sans-serif;
+}
+
+button:hover {
+    background-color: #009999;
+}
+
+
+
+
+
+
+
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(146, 129, 0, 0.1);
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/***-------------------------------------*/
+
+
+/* Footer styling */
+footer {
+    background-color: #496161;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+.contact-info a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+
+}
+
+
+
+/* Responsive Styles */
+
+/* Header */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
+
+
+
+/* Footer */
+@media screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info, .social-links {
+        margin: 10px 0;
+    }
+}
+footer a{
+    color:yellowgreen
+
+
+    /*background */
+}
+.section {
+    background-image: url('fireworks-removebg-preview.png');
+    background-size: cover; /* Adjust as needed: cover, contain, etc. */
+    background-repeat: no-repeat;
+    background-position: center center; /* Adjust the position of the background image */
+    /* Add any additional styling for the section */
+  }
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }

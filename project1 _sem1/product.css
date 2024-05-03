@@ -1,0 +1,156 @@
+
+body{
+    background-color: #000000;
+}
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(146, 129, 0, 0.1);
+}
+header h1{
+    color:aqua;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: rgb(255, 255, 255);
+}
+.product1, .service1, .service2, .product2, .product3, .product4 {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.product1 {
+	background-image: url(fusen.jpg);
+	background-size: cover;
+}
+.product2 {
+	background-image: url(candil.jpg);
+	background-size: cover;
+}
+.product3 {
+	background-image: url(pataka.jpg);
+	background-size: cover;
+}
+.product4 {
+	background-image: url(popper.jpg);
+	background-size: cover;
+}
+.service1 {
+	background-image: url(deli.jpg);
+	background-size: cover;
+}
+.service2 {
+	background-image: url(deco.jpg);
+	background-size: cover;
+}
+
+/* Footer styling */
+footer {
+    background-color: #496161;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+.contact-info a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+
+}
+
+
+
+/* Responsive Styles */
+
+/* Header */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
+
+
+
+/* Footer */
+@media screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-info, .social-links {
+        margin: 10px 0;
+    }
+}
+footer a{
+    color:yellowgreen
+
+
+    /*background */
+}
+.section {
+    background-image: url('fireworks-removebg-preview.png');
+    background-size: cover; /* Adjust as needed: cover, contain, etc. */
+    background-repeat: no-repeat;
+    background-position: center center; /* Adjust the position of the background image */
+    /* Add any additional styling for the section */
+  }
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }

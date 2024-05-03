@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <title>JoyBoys Party Supplies</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="logo.png" alt="JoyBoys Party Supplies Logo">
+        <h1>JoyBoy's Party Supplies</h1>
+      </div>
+    
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="product.html">Products and Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+   </header>
+   <hr>
+   <hr>
+            
+
+
+       <section class="contact-form">
+            <h2 style="color:white ">Get in Touch</h2>
+            <form action="submit_form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890">
+                    <small>Enter a 10-digit phone number (no spaces or dashes).</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="subscribe">Subscribe to recieve news and informations:</label>
+                    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+
+
+
+        <div class="container">
+    
+            <div class="map-container">
+                <img src="map.png" alt="Map Image" class="map-image">
+                <div class="address-overlay">
+                    <p>Visit us at:</p>
+                    <p>24 Birchrest Court</p>
+                </div>
+            </div>
+            </div>
+    </body>
+
+    <footer class="footer">
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <hr>
+            <a href="mailto:joyboys@hotmail.com"> Email:joyboys@hotmail.com</a><br>
+           <br> <a href="tel:464-445-04564">Call us Now:464-445-04564</a> 
+        </div>
+        <div class="social-links">
+            <a href="facebook.com" target="_blank">Facebook</a>
+            <a href="twitter.com" target="_blank">Twitter</a>
+            <a href="instagram.com" target="_blank">Instagram</a><br>
+           
+        </div>
+        <a href="about.html"> Copyright @ privacy policy</a><br>
+        
+  </footer>
+
+</html>
